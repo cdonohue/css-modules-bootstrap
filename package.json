@@ -1,0 +1,40 @@
+{
+  "name": "css-modules-bootstrap",
+  "version": "1.0.0",
+  "description": "Using css modules with Bootstrap for component composition",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdonohue/css-modules-bootstrap.git"
+  },
+  "keywords": [
+    "css-modules",
+    "bootstrap"
+  ],
+  "author": "Chad Donohue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdonohue/css-modules-bootstrap/issues"
+  },
+  "homepage": "https://github.com/cdonohue/css-modules-bootstrap#readme",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "bootstrap": "^3.3.5",
+    "css-loader": "^0.23.0",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.6",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  }
+}
