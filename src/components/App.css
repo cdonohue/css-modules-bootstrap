@@ -1,3 +1,19 @@
 .button {
   composes: btn btn-success from 'bootstrap/less/buttons.less';
+  border-radius: 50px;
+  box-shadow: inset 0 5px 6px rgba(255,255,255,0.26),
+              0 4px 8px rgba(0,0,0,.12);
+  font-size: 1.3em;
+  font-weight: 600;
+  padding: 20px 45px;
+  text-transform: uppercase;
+  transition: .2s ease-in-out;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
