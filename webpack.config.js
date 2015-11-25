@@ -43,7 +43,7 @@ module.exports = {
   },
 
   bootstrapModuleLoader: {
-    customVariablesPath: path.resolve('./src/components/variables.less')
+    variables: path.resolve('./src/components/variables.less')
   },
 
   devServer: {
