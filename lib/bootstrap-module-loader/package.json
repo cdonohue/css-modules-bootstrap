@@ -1,0 +1,11 @@
+{
+  "name": "bootstrap-module-loader",
+  "version": "1.0.0",
+  "description": "Webpack loader for consuming a bootstrap module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chad Donohue",
+  "license": "MIT"
+}

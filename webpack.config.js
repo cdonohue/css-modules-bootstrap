@@ -17,9 +17,7 @@ module.exports = {
   devtool: 'source-map',
 
   resolve: {
-    modulesDirectories: [
-      'node_modules'
-    ]
+    modulesDirectories: ['node_modules']
   },
 
   module: {
@@ -38,16 +36,14 @@ module.exports = {
           'style-loader',
           'css-loader?modules&importLoaders=2',
           'less-loader',
-          require.resolve('./lib/bootstrap-variables-loader')
-        ]
-      },
-      {
-        test: /\.less$/,
-        loaders: [
-          require.resolve('./lib/bootstrap-variables-loader')
+          require.resolve('./lib/bootstrap-module-loader')
         ]
       }
     ]
+  },
+
+  bootstrapModuleLoader: {
+    customVariablesPath: path.resolve('./src/components/variables.less')
   },
 
   devServer: {
