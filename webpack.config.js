@@ -42,10 +42,6 @@ module.exports = {
     ]
   },
 
-  bootstrapModuleLoader: {
-    variables: path.resolve('./src/components/variables.less')
-  },
-
   devServer: {
     contentBase: './src'
   }
