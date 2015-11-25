@@ -4,7 +4,7 @@ export default React => () => {
   return (
     <div className={styles.container}>
       <button className={styles.button}>
-        I'm a button, Yo
+        Get Started
       </button>
     </div>
   )
